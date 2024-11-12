@@ -13,6 +13,7 @@ struct MongoKitApp: App {
 
     var body: some Scene {
         WindowGroup {
+            var a = 1
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
